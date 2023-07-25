@@ -1,5 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500&family=Noto+Serif+SC:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body/*设置背景*/
+{
+    background-image : url("https://Illuminatrox.github.io/ogas.png");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.Dft_block/*默认块样式*/
+{
+    text-align : left;
+    background-color : rgba(255,255,249,1);/*背景色*/
+    border : 3px solid red;/*边框：3像素 实线 红色*/
+    border-radius : 4px;/*圆角：4像素*/
+    margin : 15px 30px 15px 30px;/*边外距*/
+    padding : 25px 10px 25px 10px;/*边内距*/
+    text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
+    font-size :1em;
+}
+.NIndt_block/*无缩进块样式*/
+{
+    text-align : left;
+    background-color : rgba(255,255,249,1);/*背景色*/
+    border : 3px solid red;/*边框：3像素 实线 红色*/
+    border-radius : 4px;/*圆角：4像素*/
+    margin : 15px 30px 15px 30px;/*边外距*/
+    padding : 25px 10px 25px 10px;/*边内距*/
+    line-height : 1.15;/*行高*/
+    font-size :1em;
+}
+.align_C
+{text_align : center;}
+.align_L
+{text_align : left;}
+.align_R
+{text_align : right}
 h1
 {   
     text-align : center;/*居中*/
@@ -73,25 +108,29 @@ p
 }
 blockquote
 {
-    font-family : "Noto Sans SC"，italic;/*字体族*/
+    font-family : "Noto Serif","Noto Serif SC",italic;/*字体族*/
+    font-weight : 100;
     text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
     font-size : 1em;
 }
 q
 {
-    font-family : "Noto Sans SC"，italic;/*字体族*/
+    font-family : "Noto Serif","Noto Serif SC",italic;/*字体族*/
+    font-weight : 100;
     line-height : 1.15;/*行高*/
     font-size : 1em;
 }
 .quote
 {
-    font-family : "Noto Sans SC"，italic;/*字体族*/
+    font-family : "Noto Serif","Noto Serif SC",italic;/*字体族*/
+    font-weight : 100;
     line-height : 1.15;/*行高*/
     font-size : 1em;
 }
 .blockquote
 {
-    font-family : "Noto Sans SC"，italic;/*字体族*/
+    font-family : "Noto Serif","Noto Serif SC",italic;/*字体族*/
+    font-weight : 100;
     text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
     font-size : 1em;
 }
