@@ -2,7 +2,7 @@
 
 body/*设置背景*/
 {
-    background-image : url("https://Illuminatrox.github.io/ogas.png");
+    background-image : url("../ogas.png");
     background-size: 100%;
     background-attachment: fixed;
 }
@@ -26,15 +26,19 @@ body/*设置背景*/
     border-radius : 4px;/*圆角：4像素*/
     margin : 15px 30px 15px 30px;/*边外距*/
     padding : 25px 10px 25px 10px;/*边内距*/
-    line-height : 1.15;/*行高*/
+    text-indent : 0em;line-height : 1.15;/*行高*/
     font-size :1em;
 }
+.NIndt/*无缩进*/
+{
+    text-indent: 0;
+}
 .align_C
-{text_align : center;}
+{text-align : center;}
 .align_L
-{text_align : left;}
+{text-align : left;}
 .align_R
-{text_align : right}
+{text-align : right}
 h1
 {   
     text-align : center;/*居中*/
@@ -99,7 +103,7 @@ p
     font-family : "Noto Serif","Noto Serif SC",serif;/*字体族*/
     font-size : 1em;
 }
-.text
+.textus
 {
     text-align : left;
     text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
