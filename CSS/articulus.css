@@ -45,7 +45,7 @@ body/*设置背景*/
     text-indent: 0;
 }
 .align_C
-{text-align : center;}
+{text-align : center;text-indent: 0em;}
 .align_L
 {text-align : left;}
 .align_R
