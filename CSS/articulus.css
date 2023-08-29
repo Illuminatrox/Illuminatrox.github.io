@@ -127,6 +127,13 @@ p
     font-family : "Noto Serif","Noto Serif SC",serif;/*字体族*/
     font-size :1em;
 }
+.NIndt_textus
+{
+    text-align : left;
+    text-indent : 0;/*首行缩进*/  line-height : 1.15;/*行高*/
+    font-family : "Noto Serif","Noto Serif SC",serif;/*字体族*/
+    font-size :1em;
+}
 blockquote
 {
     font-family : "Noto Serif","Noto Serif SC",italic;/*字体族*/
