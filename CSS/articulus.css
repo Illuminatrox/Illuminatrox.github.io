@@ -1,164 +1,265 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-body/*设置背景*/
-{
-    background-image : url("../ogas.png");
+body
+
+/*设置背景*/
+    {
+    background-image: url("../ogas.png");
     background-size: 100%;
     background-attachment: fixed;
 }
 
-.Dft_block/*默认块样式*/
-{
-    text-align : left;
-    background-color : rgba(255,255,249,1);/*背景色*/
-    border : 3px solid red;/*边框：3像素 实线 红色*/
-    border-radius : 4px;/*圆角：4像素*/
-    margin : 15px 30px 15px 30px;/*边外距*/
-    padding : 25px 10px 25px 10px;/*边内距*/
-    text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
-    font-size :1em;
+.Dft_block
+
+/*默认块样式*/
+    {
+    text-align: left;
+    background-color: rgba(255, 255, 249, 1);
+    /*背景色*/
+    border: 3px solid red;
+    /*边框：3像素 实线 红色*/
+    border-radius: 4px;
+    /*圆角：4像素*/
+    margin: 15px 30px 15px 30px;
+    /*边外距*/
+    padding: 25px 10px 25px 10px;
+    /*边内距*/
+    text-indent: 2em;
+    /*首行缩进*/
+    line-height: 1.15;
+    /*行高*/
+    font-size: 1em;
 }
-.Hng_block/*悬挂块样式*/
-{
-    text-align : left;
-    background-color : rgba(255,255,249,1);/*背景色*/
-    border : 3px solid red;/*边框：3像素 实线 红色*/
-    border-radius : 4px;/*圆角：4像素*/
-    margin : 15px 30px 15px 30px;/*边外距*/
-    padding : 25px 10px 25px 42px;/*边内距*/
-    text-indent : -2em;/*首行缩进*/  line-height : 1.15;/*行高*/
-    font-size :1em;
+
+.Hng_block
+
+/*悬挂块样式*/
+    {
+    text-align: left;
+    background-color: rgba(255, 255, 249, 1);
+    /*背景色*/
+    border: 3px solid red;
+    /*边框：3像素 实线 红色*/
+    border-radius: 4px;
+    /*圆角：4像素*/
+    margin: 15px 30px 15px 30px;
+    /*边外距*/
+    padding: 25px 10px 25px 42px;
+    /*边内距*/
+    text-indent: -2em;
+    /*首行缩进*/
+    line-height: 1.15;
+    /*行高*/
+    font-size: 1em;
 }
-.NIndt_block/*无缩进块样式*/
-{
-    text-align : left;
-    background-color : rgba(255,255,249,1);/*背景色*/
-    border : 3px solid red;/*边框：3像素 实线 红色*/
-    border-radius : 4px;/*圆角：4像素*/
-    margin : 15px 30px 15px 30px;/*边外距*/
-    padding : 25px 10px 25px 10px;/*边内距*/
-    text-indent : 0em;line-height : 1.15;/*行高*/
-    font-size :1em;
+
+.NIndt_block
+
+/*无缩进块样式*/
+    {
+    text-align: left;
+    background-color: rgba(255, 255, 249, 1);
+    /*背景色*/
+    border: 3px solid red;
+    /*边框：3像素 实线 红色*/
+    border-radius: 4px;
+    /*圆角：4像素*/
+    margin: 15px 30px 15px 30px;
+    /*边外距*/
+    padding: 25px 10px 25px 10px;
+    /*边内距*/
+    text-indent: 0em;
+    line-height: 1.15;
+    /*行高*/
+    font-size: 1em;
 }
-.NIndt/*无缩进*/
-{
+
+.NIndt
+
+/*无缩进*/
+    {
     text-indent: 0;
 }
-.align_C
-{text-align : center;text-indent: 0em;}
-.align_L
-{text-align : left;}
-.align_R
-{text-align : right}
-h1
-{   
-    text-align : center;/*居中*/
-    line-height : 1.15;/*行高*/
-    font-family : "Noto Serif","Noto Serif SC",serif;/*字体族*/
-    font-size : 2em;
-    font-weight : bold;/*粗体*/
+
+.align_C {
+    text-align: center;
+    text-indent: 0em;
 }
-h2
-{
-    text-align : center;/*居中*/
-    line-height : 1.15;/*行高*/
-    font-family : "Noto Serif","Noto Serif SC",serif;/*字体族*/
-    font-size : 1.6em;
-    font-weight : bold;/*粗体*/
+
+.align_L {
+    text-align: left;
 }
-h3
-{   
-    text-align : center;/*居中*/
-    line-height : 1.15;/*行高*/
-    font-family : "Noto Serif","Noto Serif SC",serif;/*字体族*/
+
+.align_R {
+    text-align: right
+}
+
+h1 {
+    text-align: center;
+    /*居中*/
+    line-height: 1.15;
+    /*行高*/
+    font-family: "Noto Serif", "Noto Serif SC", serif;
+    /*字体族*/
+    font-size: 2em;
+    font-weight: bold;
+    /*粗体*/
+}
+
+h2 {
+    text-align: center;
+    /*居中*/
+    line-height: 1.15;
+    /*行高*/
+    font-family: "Noto Serif", "Noto Serif SC", serif;
+    /*字体族*/
+    font-size: 1.6em;
+    font-weight: bold;
+    /*粗体*/
+}
+
+h3 {
+    text-align: center;
+    /*居中*/
+    line-height: 1.15;
+    /*行高*/
+    font-family: "Noto Serif", "Noto Serif SC", serif;
+    /*字体族*/
     font-size: 1.5em;
-    font-weight : bold;/*粗体*/
+    font-weight: bold;
+    /*粗体*/
 }
-h4
-{
-    text-align : center;/*居中*/
-    line-height : 1.15;/*行高*/
-    font-family : "Noto Serif","Noto Serif SC",serif;/*字体族*/
+
+h4 {
+    text-align: center;
+    /*居中*/
+    line-height: 1.15;
+    /*行高*/
+    font-family: "Noto Serif", "Noto Serif SC", serif;
+    /*字体族*/
     font-size: 1.25em;
-    font-weight : bold;/*粗体*/
+    font-weight: bold;
+    /*粗体*/
 }
-h5
-{
-    text-align : center;/*居中*/
-    line-height : 1.15;/*行高*/
-    font-family : "Noto Serif","Noto Serif SC",serif;/*字体族*/
+
+h5 {
+    text-align: center;
+    /*居中*/
+    line-height: 1.15;
+    /*行高*/
+    font-family: "Noto Serif", "Noto Serif SC", serif;
+    /*字体族*/
     font-size: 1.2em;
-    font-weight : bold;/*粗体*/
+    font-weight: bold;
+    /*粗体*/
 }
-h6
-{
-    text-align : center;/*居中*/
-    line-height : 1.15;/*行高*/
-    font-family : "Noto Serif","Noto Serif SC",serif;/*字体族*/
+
+h6 {
+    text-align: center;
+    /*居中*/
+    line-height: 1.15;
+    /*行高*/
+    font-family: "Noto Serif", "Noto Serif SC", serif;
+    /*字体族*/
     font-size: 1em;
-    font-weight : bold;/*粗体*/
+    font-weight: bold;
+    /*粗体*/
 }
-.inlineTitle/*行内标题*/
-{
-    text-align : center;
-    line-height : 1.15;/*行高*/
-    font-family : "Noto Serif","Noto Serif SC",serif;/*字体族*/
+
+.inlineTitle
+
+/*行内标题*/
+    {
+    text-align: center;
+    line-height: 1.15;
+    /*行高*/
+    font-family: "Noto Serif", "Noto Serif SC", serif;
+    /*字体族*/
     font-size: 1.5em;
-    font-weight : bold;/*粗体*/
+    font-weight: bold;
+    /*粗体*/
 }
-p
-{
-    text-align : left;
-    text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
-    font-family : "Noto Serif","Noto Serif SC",serif;/*字体族*/
-    font-size :1em;
+
+p {
+    text-align: left;
+    text-indent: 2em;
+    /*首行缩进*/
+    line-height: 1.15;
+    /*行高*/
+    font-family: "Noto Serif", "Noto Serif SC", serif;
+    /*字体族*/
+    font-size: 1em;
 }
-.hang
-{
-    text-align : left;
-    text-indent : -2em;/*首行缩进*/  line-height : 1.15;/*行高*/
-    font-family : "Noto Serif","Noto Serif SC",serif;/*字体族*/
-    font-size :1em;
+
+.hang {
+    text-align: left;
+    text-indent: -2em;
+    /*首行缩进*/
+    line-height: 1.15;
+    /*行高*/
+    font-family: "Noto Serif", "Noto Serif SC", serif;
+    /*字体族*/
+    font-size: 1em;
 }
-.textus
-{
-    text-align : left;
-    text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
-    font-family : "Noto Serif","Noto Serif SC",serif;/*字体族*/
-    font-size :1em;
+
+.textus {
+    text-align: left;
+    text-indent: 2em;
+    /*首行缩进*/
+    line-height: 1.15;
+    /*行高*/
+    font-family: "Noto Serif", "Noto Serif SC", serif;
+    /*字体族*/
+    font-size: 1em;
 }
-.NIndt_textus
-{
-    text-align : left;
-    text-indent : 0;/*首行缩进*/  line-height : 1.15;/*行高*/
-    font-family : "Noto Serif","Noto Serif SC",serif;/*字体族*/
-    font-size :1em;
+
+.NIndt_textus {
+    text-align: left;
+    text-indent: 0;
+    /*首行缩进*/
+    line-height: 1.15;
+    /*行高*/
+    font-family: "Noto Serif", "Noto Serif SC", serif;
+    /*字体族*/
+    font-size: 1em;
 }
-blockquote
-{
-    font-family : "Noto Serif","Noto Serif SC",italic;/*字体族*/
-    font-weight : 100;
-    text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
-    font-size : 1em;
+
+blockquote {
+    font-family: "Noto Serif", "Noto Serif SC", italic;
+    /*字体族*/
+    font-weight: 100;
+    text-indent: 2em;
+    /*首行缩进*/
+    line-height: 1.15;
+    /*行高*/
+    font-size: 1em;
 }
-q
-{
-    font-family : "Noto Serif","Noto Serif SC",italic;/*字体族*/
-    font-weight : 100;
-    line-height : 1.15;/*行高*/
-    font-size : 1em;
+
+q {
+    font-family: "Noto Serif", "Noto Serif SC", italic;
+    /*字体族*/
+    font-weight: 100;
+    line-height: 1.15;
+    /*行高*/
+    font-size: 1em;
 }
-.quote
-{
-    font-family : "Noto Serif","Noto Serif SC",italic;/*字体族*/
-    font-weight : 100;
-    line-height : 1.15;/*行高*/
-    font-size : 1em;
+
+.quote {
+    font-family: "Noto Serif", "Noto Serif SC", italic;
+    /*字体族*/
+    font-weight: 100;
+    line-height: 1.15;
+    /*行高*/
+    font-size: 1em;
 }
-.blockquote
-{
-    font-family : "Noto Serif","Noto Serif SC",italic;/*字体族*/
-    font-weight : 100;
-    text-indent : 2em;/*首行缩进*/  line-height : 1.15;/*行高*/
-    font-size : 1em;
+
+.blockquote {
+    font-family: "Noto Serif", "Noto Serif SC", italic;
+    /*字体族*/
+    font-weight: 100;
+    text-indent: 2em;
+    /*首行缩进*/
+    line-height: 1.15;
+    /*行高*/
+    font-size: 1em;
 }
